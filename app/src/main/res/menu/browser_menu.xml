@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/next_tab"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always"
+        android:title="Next" />
+    <item
+        android:id="@+id/previous_tab"
+        android:icon="@android:drawable/ic_media_previous"
+        android:showAsAction="always"
+        android:title="Previous" />
+    <item
+        android:id="@+id/new_tab"
+        android:icon="@android:drawable/ic_media_next"
+        android:showAsAction="always"
+        android:title="New" />
+
+    <item
+        android:id="@+id/settings_tab"
+        android:showAsAction="always"
+        android:title="Settings" />
+</menu>
